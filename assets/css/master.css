@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(142, 142, 255);
+}
+.container {
+  margin-top: 50px;
+}
+.container h1 {
+  text-align: center;
+  color: #fff;
+}
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 2px solid #b7afaf;
+}
+
+li button {
+  background-color: rgb(255, 255, 255);
+}
+
+body .todobox {
+  width: 50vw;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  max-width: 35%;
+  min-height: 250px;
+  max-height: 350px;
+  overflow: auto;
+
+  display: flex;
+  flex-direction: column;
+  text-wrap: wrap;
+  text-align: right;
+}
+
+#todo-input {
+  background-color: rgb(255, 255, 255);
+  direction: rtl;
+  width: 31%;
+  padding: 20px;
+  border-radius: 8px 0 0 8px;
+  border: unset;
+}
+
+body form {
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+body form .submit {
+  background-color: blue;
+  border-radius: 0 8px 8px 0;
+  border: unset;
+  color: #fff;
+  font-weight: 800;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.savebutton {
+  background-color: rgb(112, 228, 147);
+  margin-right: 5px;
+  border-radius: 8px;
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
